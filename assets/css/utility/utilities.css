@@ -77,7 +77,7 @@ body{
 
 /***Display***/
 .none{
-    display: none;
+    display: none ;
 }
 .block{
     display: block;
@@ -154,5 +154,33 @@ ul{
 
 
 .active{
-    border-right: 3px solid goldenrod !important;
+    border-right: 3px solid gold !important;
+}
+
+
+.header{
+    box-shadow: 2px 8px 12px -8px rgba(0, 0, 0, 0.7);
+}
+
+.subtitle{
+    position: absolute;
+    left: 120px;
+    top: 36px;
+    font-size: 1rem;
+    color: gray;
+}
+
+.header h3{
+    background-color: gold;
+    color: white;
+    font-size: 1.3rem;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.black{
+    color: black;
 }

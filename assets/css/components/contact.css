@@ -1,0 +1,189 @@
+.contact-content{
+   display: grid;
+   grid-template-columns: 2fr 2fr;
+   grid-template-rows: 1fr;
+   gap: 10px;
+   margin: 10px;
+}
+
+/*************************Get**************************/
+.get{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column; 
+}
+
+.get .header{
+    color: black;
+}
+
+.get h4{
+    font-weight: 400;
+    text-decoration: underline 2px solid gold;
+    margin: 0; 
+}
+
+.location, .mail, .phone, .statu{
+    gap: 10px;
+    align-items: center;
+}
+.location i, 
+.mail i, 
+.phone i, 
+.statu i{
+    font-size: 1.5rem;
+    color: #ccc;
+}
+
+/************************Form****************************/
+.formulaire{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+}
+
+.formulaire h4{
+    font-weight: 400;
+    text-decoration: underline 2px solid gold;
+    margin: 0;
+}
+
+.form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+
+#fullname, #email{
+    height: 30px;
+    width: 70%;
+    border: 0.1px solid #ccc;
+    outline: none;
+    padding-left: 5px;
+    font-size: 0.8rem;
+}
+#message{
+    border: 0.1px solid #ccc;
+    outline: none;
+    padding-left: 5px;
+    font-size: 0.8rem;
+}
+
+textarea{
+    resize: none;
+    width: 70%;
+}
+
+
+.recaptcha{
+    border: 1px solid #ccc;
+    background-color: #efefef;
+    height: 50px;
+    width: 70%;
+    font-size: 0.9rem;
+}
+.recaptcha img{
+    width: 45px;
+    height: 45px;
+    box-shadow: none;
+}
+
+button{
+    background-color: white;
+    border: 2px solid gold;
+    width: 120px;
+    height: 35px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+i.fa-solid{
+    color: #ccc;
+    right: 30px;
+}
+
+.message i.fa-solid{
+    bottom: 90px;
+}
+
+
+
+@media screen and (max-width: 901px){
+    #fullname, #email{
+        width: 90%;
+    }
+    textarea{
+        width: 90%;
+    }
+    .recaptcha{
+        width: 90%;
+        font-size: 0.9rem;
+    }
+    .fullname i,
+    .email i,
+    .message i{
+        color: #ccc;
+        left: 200px;
+        bottom: 28px;
+    }
+    .message i{
+        bottom: 113px;
+    }
+    .recaptcha{
+        font-size: 0.7rem;
+    }
+}
+
+
+@media screen and (max-width: 890px) {
+    .contact-content{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .get{
+        margin-top: 90px;
+        margin-left: 60px;
+        margin-right: 60px;
+        width: auto;
+    }
+    .formulaire{
+        margin-left: 60px;
+        margin-right: 60px;
+        width: auto;
+    }
+    #fullname, #email{
+        width: 85%;
+    }
+    textarea{
+        width: 85%;
+    }
+    .recaptcha{
+        width: 220px;
+        font-size: 0.9rem;
+    }
+    i.fa-solid{
+        padding: 0;
+        margin: 0;
+        color: #ccc;
+        left: -30px;
+        bottom: 1px;
+    }
+    
+    .message i.fa-solid{
+        bottom: 94px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .content.contact{
+        position: absolute;
+        top: 50px;;
+    }
+}

@@ -1,0 +1,71 @@
+.portfolio-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100vh;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1rem;
+}
+
+.navigation ul li{
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.navigation ul li:nth-child(2):hover,
+.navigation ul li:nth-child(3):hover{
+    background-color: #efefef;
+    box-shadow: 2px 8px 12px -8px rgba(0, 0, 0, 0.7);
+}
+
+
+.navigation ul li.active{
+    text-align: center;
+    background-color: gold;
+    box-shadow: 2px 8px 12px -8px rgba(0, 0, 0, 0.7);
+    color: white;
+    height: 30px;
+}
+
+.photos{
+    margin: 20px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 8px 12px -8px rgba(0, 0, 0, 0.7);
+}
+
+
+@media screen and (max-width: 600px) {
+    .content.portfolio{
+        position: absolute;
+        top: 50px;;
+    }
+    .photos{
+        margin: 20px auto !important;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1300px) {
+    .photos{
+        justify-content: center;
+        align-items: center;
+    }
+}
