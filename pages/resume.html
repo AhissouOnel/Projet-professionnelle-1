@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/bootstrap-icons/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
     <div class="container">
+        <!--Menu principal-->
         <nav class="aside">
             <h3 class="name none">Onel Ahissou</h3>
             <div class="nav-icon none" id="nav-icon">
@@ -42,6 +44,8 @@
             </div>
         </nav>
 
+
+        <!--Menu déroulant-->
         <nav class="left none">
             <div class="profil">
                 <div class="profile-picture">
@@ -70,12 +74,176 @@
         </nav>
 
 
+        <div class="content resume">
+            <!--Bouton paramètre-->
+            <div class="parameter">
+                <i class="bi bi-gear"></i>
+            </div>
 
-        <div class="content">
-           
+            <!--Titre de page-->
+            <div class="title relative">
+                <div class="header">
+                    <h3>Resume</h3>      
+                </div>
+                <div class="subtitle">
+                    6 years experiences
+                </div>
+            </div>
+
+            <div class="resume-content">
+
+                <!--Education-->
+                <div class="education"> 
+                    <h3>Education</h3>
+                    <div class="educations-items">
+                        <div class="education-item relative">
+                            <div class="year absolute">2010</div>
+                            <div class="education-details">
+                                <h4>Specialization Course</h4>
+                                <h6>University of Studies</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Praesentium ad excepturi voluptatum necessitatibus impedit, 
+                                    sed perspiciatis aut dignissimos quos sunt assumenda animi suscipit eos hic numquam, 
+                                    soluta rerum quia accusantium.
+                                </p>
+                            </div> 
+                        </div>
+                        <div class="education-item relative">
+                            <div class="year absolute">2009</div>
+                            <div class="education-details">
+                                <h4>Specialization Course</h4>
+                                <h6>University of Studies</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Praesentium ad excepturi voluptatum necessitatibus impedit, 
+                                    sed perspiciatis aut dignissimos quos sunt assumenda animi suscipit eos hic numquam, 
+                                    soluta rerum quia accusantium.
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div class="education-item relative">
+                            <div class="year absolute">2008</div>
+                            <div class="education-details">
+                                <h4>Specialization Course</h4>
+                                <h6>University of Studies</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Praesentium ad excepturi voluptatum necessitatibus impedit, 
+                                    sed perspiciatis aut dignissimos quos sunt assumenda animi suscipit eos hic numquam, 
+                                    soluta rerum quia accusantium.
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!--Experience-->
+                <div class="experience">
+                    <h3>Experience</h3>
+                    <div class="experiences-items">
+                        <div class="experience-item relative">
+                            <div class="year-details absolute">Dec 2012 - Current</div>
+                            <div class="experience-details">
+                                <h4>Frontend Developer</h4>
+                                <h6>Web Agency</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Praesentium ad excepturi voluptatum necessitatibus impedit, 
+                                    sed perspiciatis aut dignissimos quos sunt assumenda animi suscipit eos hic numquam, 
+                                    soluta rerum quia accusantium.
+                                </p>
+                            </div> 
+                        </div>
+                        <div class="experience-item relative">
+                            <div class="year-details absolute">Dec 2011 - Nov 2012</div>
+                            <div class="experience-details">
+                                <h4>Web Designer</h4>
+                                <h6>Apple Inc.</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Praesentium ad excepturi voluptatum necessitatibus impedit, 
+                                    sed perspiciatis aut dignissimos quos sunt assumenda animi suscipit eos hic numquam, 
+                                    soluta rerum quia accusantium.
+                                </p>
+                            </div> 
+                        </div>
+                        <div class="experience-item relative">
+                            <div class="year-details absolute">Jan 2010 - Dec 2011</div>
+                            <div class="experience-details">
+                                <h4>Graphic Designer</h4>
+                                <h6>Web Agency</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Praesentium ad excepturi voluptatum necessitatibus impedit, 
+                                    sed perspiciatis aut dignissimos quos sunt assumenda animi suscipit eos hic numquam, 
+                                    soluta rerum quia accusantium.
+                                </p>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                <!--Skills-->
+                <div class="skills">
+                    <div class="design-skills">
+                        <h3>Design Skills</h3>
+                        <div class="designSkill-items">
+                            <div class="designSkill-item">
+                                <span class="webDesign">Web Design</span><br>
+                                <div class="bar"></div>
+                                <div class="activebar" id="bar1"></div>
+                            </div>
+                            <div class="designSkill-item">
+                                <span class="graphicDesign">Graphic Design</span><br>
+                                <div class="bar"></div>
+                                <div class="activebar" id="bar2"></div>
+                            </div>
+                            <div class="designSkill-item">
+                                <span class="printDesign">Print Design</span><br>
+                                <div class="bar"></div>
+                                <div class="activebar" id="bar3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coding-skills">
+                        <h3>Coding Skills</h3>
+                        <div class="codingSkill-items">
+                            <div class="codingSkill-item">
+                                <span class="htmlbar">HTML 5</span>
+                                <div class="bar"></div>
+                                <div class="activebar" id="bar4"></div>
+                            </div>
+                            <div class="codingSkill-item">
+                                <span class="cssbar">CSS 3</span>
+                                <div class="bar"></div>
+                                <div class="activebar" id="bar5"></div>
+                            </div>
+                            <div class="codingSkill-item">
+                                <span class="jquerybar">JQuery</span>
+                                <div class="bar"></div>
+                                <div class="activebar" id="bar6"></div>
+                            </div>
+                            <div class="codingSkill-item">
+                                <span class="wordpressbar">Wordpress</span>
+                                <div class="bar"></div>
+                                <div class="activebar" id="bar7"></div>
+                            </div>
+                            <div class="codingSkill-item">
+                                <span class="phpbar">PHP</span>
+                                <div class="bar"></div>
+                                <div class="activebar" id="bar8"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Bouton de téléchargement-->
+            <div class="download-button">
+                <button class="btn-download">Download CV</button>
+            </div>
         </div>
     </div>
     
+
+    <script src="/assets/js/function/resume.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
 </html>

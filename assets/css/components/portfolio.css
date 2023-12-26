@@ -1,9 +1,10 @@
 .portfolio-container{
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     margin-left: 50px;
     margin-right: 50px;
-    height: 100vh;
+    padding-bottom: 10px;
+    height: auto;
 }
 
 .navigation ul{
@@ -44,10 +45,16 @@
     gap: 10px;
 }
 
-img{
+.photos img{
     width: 250px;
     height: 250px;
     box-shadow: 2px 8px 12px -8px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+.photos img:hover{
+    scale: 1.05;
+    transition: all 5ms linear;
+    cursor: pointer;
 }
 
 

@@ -1,0 +1,252 @@
+.resume-content{
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "education experience skills";
+    gap: 10px;
+}
+
+
+/****************Education********************/
+.education{
+    padding: 5px;
+    grid-area: education;
+}
+
+.education h3{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: underline 2px solid gold;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.educations-items{
+    border-left: 1px solid #efefef;
+}
+.education-item{
+    margin: 20px auto;
+}
+.education-item .year{
+    background-color: #4cb648;
+    color: white;
+    top: 0;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+.education-item .education-details{
+    margin: 20px 0 20px 20px;
+    text-align: justify;
+}
+.education-item .education-details h4{
+    justify-content: center !important;
+    padding-top: 25px !important;
+    margin: 0 !important;
+    top: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.education-item .education-details h6{
+    padding: 0 !important;
+    margin: 0 !important;
+    top: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: gray;
+}
+.education-item .education-details p{
+    font-size: 0.9rem;
+}
+
+
+/******************Experience*******************/
+.experience{
+    padding: 5px;
+    grid-area: experience;
+}
+.experience h3{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: underline 2px solid gold;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.experiences-items{
+    border-left: 1px solid #efefef;
+}
+.experience-item{
+    margin: 20px auto;
+}
+.experience-item .year-details{
+    background-color: #4cb648;
+    color: white;
+    top: 0;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+.experience-item .experience-details{
+    margin: 20px 0 20px 20px;
+    text-align: justify;
+}
+.experience-item .experience-details h4{
+    justify-content: center !important;
+    padding-top: 25px !important;
+    margin: 0 !important;
+    top: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.experience-item .experience-details h6{
+    padding: 0 !important;
+    margin: 0 !important;
+    top: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: gray;
+}
+.experience-item .experience-details p{
+    font-size: 0.9rem;
+}
+
+
+/*******************Skills*****************/
+.skills{
+    padding: 5px;
+    grid-area: skills;
+}
+
+.bar{
+    border: 1px solid gold;
+    width: 200px;
+    height: 10px;
+    border-radius: 20px;
+}
+.activebar {
+    width: 0;
+    height: 8px;
+    line-height: 10px;
+    border-radius: 20px;
+    transform: translateY(-10px);
+    transition: width 1s;
+}
+
+/******Design skills******/
+.design-skills h3{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: underline 2px solid gold;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.designSkill-items{
+    margin-top: 15px;
+    text-align: left;
+}
+.designSkill-item{
+    padding: 7px;
+}
+.designSkill-item span{
+    font-weight: 500;
+}
+.webactive{
+    width: 175px;
+    background-color: gold;
+}
+.graphicactive{
+    width: 150px;
+    background-color: gold;
+}
+.printactive{
+    width: 135px;
+    background-color: gold;
+}
+
+/******Coding skills******/
+.coding-skills{
+    margin-top: 50px;
+}
+.coding-skills h3{
+    margin-top: 10px;
+    padding: 0;
+    text-align: left;
+    text-decoration: underline 2px solid gold;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.codingSkill-items{
+    margin-top: 20px;
+    text-align: left;
+}
+.codingSkill-item{
+    padding: 7px;
+}
+.codingSkill-item span{
+    font-weight: 500;
+}
+.activehtml{
+    width: 185px;
+    background-color: gold;
+}
+.activecss{
+    width: 175px;
+    background-color: gold;
+}
+.activejquery{
+    width: 170px;
+    background-color: gold;
+}
+.activewordpress{
+    width: 185px;
+    background-color: gold;
+}
+.activephp{
+    width: 190px;
+    background-color: gold;
+}
+
+/*********Button**********/
+.download-button{
+    text-align: left;
+    padding-left: 90px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/***********************Medias queries***********************/
+@media screen and (max-width: 1100px) {
+    .resume-content{
+        margin: 100px 20px 20px 30px;
+    }
+    .download-button{
+        text-align: left;
+        padding-left: 50px;
+    }
+}
+
+
+@media screen and (max-width:920px) {
+    .resume-content{
+        margin-top: 100px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .content.resume{
+        position: absolute;
+        top: 50px;
+    }
+}
