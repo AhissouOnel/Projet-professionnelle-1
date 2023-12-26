@@ -7,6 +7,11 @@
     height: auto;
 }
 
+.content.portfolio .subtitle{
+    left: 150px;
+}
+
+
 .navigation ul{
     display: flex;
     justify-content: center;

@@ -14,7 +14,7 @@
     top: 0px;
     overflow: hidden;
 }
-.aside .nav-icon{
+.aside .nav-icon i{
     color: black !important;
 }
 /*************Profil*************/
@@ -57,7 +57,22 @@ ul li.menu-item a{
     font-weight: 600;
 }
 
+.icons a{
+    color: inherit;
+    background-color: #efefef;
+    width: 25px;
+    height: 23px;
+    text-align: center;
+}
 
+.icons a:hover{
+    box-shadow: 2px 8px 12px -8px rgba(0, 0, 0, 0.7);
+    scale: 1.1;
+}
+
+.icons a i{
+    color: gray;
+}
 /*****************Nav-left*******************/
 nav.left{
     background-color: white;
